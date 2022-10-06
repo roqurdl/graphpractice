@@ -11,3 +11,7 @@ type mutation => Post request = user send Data(Delete,Update,Create)
 type에 !를 붙이면 null을 허용하지 않음 required 표시
 
 postTweet에 new Tweet 시 user가 존재하는지 확인하는 것을 추가.
+
+"""을 사용해 Documentation 입력가능, 입력하고자하는 요소 위에서 사용.
+
+- movie REST API => GraghQL
