@@ -9,3 +9,5 @@ type query => build a url Like REST API Get request = give Data to user
 type mutation => Post request = user send Data(Delete,Update,Create)
 굳이 나누지 않아도 작동은 함. But 의도의 명확성의 문제
 type에 !를 붙이면 null을 허용하지 않음 required 표시
+
+postTweet에 new Tweet 시 user가 존재하는지 확인하는 것을 추가.
